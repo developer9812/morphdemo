@@ -10,4 +10,9 @@ class Task extends Model
     {
       return $this->belongsToMany('App\ViewConfig')->withTimestamps();
     }
+
+    public function taskGroups()
+    {
+      return $this->belongsToMany('App\TaskGroup')->withTimestamps();
+    }
 }

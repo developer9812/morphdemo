@@ -15,7 +15,7 @@ class CreateTaskGroupsTable extends Migration
     {
         Schema::create('task_groups', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->string('title');
             $table->timestamps();
         });
     }
