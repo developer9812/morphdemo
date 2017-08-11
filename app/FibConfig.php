@@ -8,6 +8,6 @@ class FibConfig extends Model
 {
     public function config()
     {
-      return $this->morphOne('App\ViewConfig', 'viewable');
+      return $this->morphToMany('App\ViewConfig', 'viewable');
     }
 }

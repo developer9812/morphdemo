@@ -11,8 +11,8 @@ class ViewConfig extends Model
       return $this->belongsToMany('App\Task')->withTimestamps();
     }
 
-    public function viewable()
+    public function fib()
     {
-      return $this->morphToMany();
+      return $this->morphedByMany('App\FibConfig', 'viewable');
     }
 }
