@@ -13,6 +13,6 @@ class ViewConfig extends Model
 
     public function viewable()
     {
-      return $this->morphTo();
+      return $this->morphToMany();
     }
 }
