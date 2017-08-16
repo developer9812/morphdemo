@@ -16,3 +16,7 @@ class ViewConfig extends Model
       return $this->morphedByMany('App\FibConfig', 'viewable');
     }
 }
+
+// sudo chown www-data:www-data /path/to/your/project/vendor
+// sudo chown www-data:www-data /path/to/your/project/storage
+// https://stackoverflow.com/a/30746362
