@@ -20,3 +20,4 @@ class ViewConfig extends Model
 // sudo chown www-data:www-data /path/to/your/project/vendor
 // sudo chown www-data:www-data /path/to/your/project/storage
 // https://stackoverflow.com/a/30746362
+// https://stackoverflow.com/a/29882246
